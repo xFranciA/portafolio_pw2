@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio | Franci Abrego</title>
+  <link rel="stylesheet" href="style.css" />
+  </head>
+<body>
+
+  <section id="inicio" class="hero">
+    <div class="hero-card">
+      <img
+      src="img/perfil.jpeg" class="profile-photo"
+      />
+      <h1 class="profile-name">Franci Suyapa Abrego</h1>
+      <p class="profile-title">Desarrollador Web Junior</p>
+      <p class="profile-short">
+        Apasionada por construir experiencias digitales, limpias, esteticas y funcionales.<br />
+      </p>
+      <div class="hero-buttons">
+        <a href="#contacto" class="btn btn-primary">Contáctame</a>
+        <a href="#biografia" class="btn btn-secondary">Más sobre mi</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROYECTOS ===== -->
+  <section id="proyectos" class="section">
+    <h2 class="section-title">Proyectos</h2>
+    <p class="section-sub"></p>
+    <div class="projects-grid" id="projects-grid">
+    </div>
+  </section>
+
+  <section id="biografia" class="section section-alt">
+    <div class="bio-container">
+      <h2 class="section-title">Biografía</h2>
+      <div class="bio-text">
+        <p>
+            Soy Franci Abrego, desarrolladora web con mas de un año de experiencia aprendiendo y creando
+            soluciones digitales para microempresas de distintos sectores. Nací en San Salvador, El Salvador, pero crei en Lempira, Honduras,
+            y desde temprana edad sentí fascinación por la tecnología y la manera en que la web  transformar la forma en que interactuamos con el mundo.
+        <p>
+            Estudio Ingeniería en Ciencias de la computacion en la Universidad Catolica de Honduras, en el campus Santa Rosa de Lima.
+            Durante mi carrera, he tenido la oportunidad de trabajar en proyectos académicos y personales que me han permitido desarrollar habilidades en HTML, CSS, JavaScript, MySQL, Git, GitHub, Python y React. 
+            He colaborado con pequeñas empresas locales para crear sitios web funcionales y atractivos que les ayuden a crecer en el entorno digital.
+        </p>
+        <p>
+            Mi enfoque como desarrolladora web es crear experiencias de usuario intuitivas y accesibles, combinando un diseño limpio con una funcionalidad sólida.
+            Me apasiona aprender nuevas tecnologías y metodologías para mejorar continuamente mis habilidades y ofrecer soluciones innovadoras a mis clientes.
+        </p>
+        <p>
+            Disfruto mucho de la fotografia y el diseño grafico, lo que me ha ayudado a desarrollar un criterio solido para el diseño visual y la estética en mis proyectos web.
+        </p>
+      </div>
+      <div class="skills-list">
+        <span class="skill-tag">HTML-CSS</span>
+        <span class="skill-tag">JavaScript</span>
+        <span class="skill-tag">MySQL</span>
+        <span class="skill-tag">Git</span>
+        <span class="skill-tag">GitHub</span>
+        <span class="skill-tag">Python</span>
+        <span class="skill-tag">React</span>
+        <span class="skill-tag">Diseño UI</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACTO ===== -->
+  <section id="contacto" class="section">
+    <h2 class="section-title">Contacto</h2>
+    <p class="section-sub">¿Estas interesado en algun proyecto ultimamente?</p>
+    <form class="contact-form" id="contact-form" novalidate>
+      <div class="form-group">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required />
+        <span class="error-msg" id="error-nombre"></span>
+      </div>
+      <div class="form-group">
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" name="email" placeholder="correo@ejemplo.com" required />
+        <span class="error-msg" id="error-email"></span>
+      </div>
+      <div class="form-group">
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" rows="5" placeholder="Cuéntame sobre tu proyecto..." required></textarea>
+        <span class="error-msg" id="error-mensaje"></span>
+      </div>
+      <button type="submit" class="btn btn-primary btn-full">Enviar mensaje</button>
+      <p class="form-feedback" id="form-feedback"></p>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p> 2026 Franci Abrego · Desarrollador Web Junior</p>
+    <p class="footer-links">
+      <p>abregofranci@gmail.com</p> 
+    </p>
+  </footer>
+
+  <script src="java.js"></script>
+</body>
+</html>
